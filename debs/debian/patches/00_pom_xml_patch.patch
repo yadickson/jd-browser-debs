@@ -16,7 +16,7 @@
 +		</debian.hasPackageVersion>
 +		<debian.mavenRules>jd jd-browser jar 0.0 * *</debian.mavenRules>
 +		<debian.originalVersion>0.0</debian.originalVersion>
-+		<debian.package>jd-browser</debian.package>
++		<debian.package>libjd-browser-java</debian.package>
 +	</properties>
 +	<dependencies>
 +		<dependency>
