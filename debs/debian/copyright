@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: jdownloader-utils
-Source: https://github.com/svn2github/jd-utils
+Upstream-Name: jdownloader-browser
+Source: https://github.com/svn2github/jd-browser
 
 Files: *
 Copyright: Copyright (C) 2008  JD-Team <support@jdownloader.org>

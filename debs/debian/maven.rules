@@ -1,9 +1,4 @@
 
 jd jd-utils jar 0.0 * *
-com.miglayout miglayout-swing jar s/.*/debian/ * *
-commons-lang commons-lang jar s/.*/debian/ * *
 jd jd-browser jar s/.*/debian/ * *
-junit junit jar s/4\..*/4.x/ * *
-org.codehaus.jackson jackson-core-lgpl jar s/.*/debian/ * *
-org.codehaus.jackson jackson-mapper-lgpl jar s/.*/debian/ * *
-org.tmatesoft.svnkit svnkit jar s/.*/debian/ * *
+
