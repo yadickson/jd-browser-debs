@@ -16,13 +16,13 @@ rm -rf "${PKG}"*
 rm -rf "${PKG}-${VER}"
 rm -f "${ZIPFILE}"
 
-wget -c -t 1 -T 5 "https://github.com/svn2github/${PKG}/archive/${SHA}.zip" -O "${ZIPFILE}" || exit 1
+wget -c -t 1 -T 5 "https://github.com/svn2github/jd-browser/archive/${SHA}.zip" -O "${ZIPFILE}" || exit 1
 
 unzip "${ZIPFILE}" || exit 1
 
 rm -f "${ZIPFILE}"
 
-mv "${PKG}"* "${PKG}-${VER}"
+mv "jd-browser"* "${PKG}-${VER}"
 
 rm -rf "${PKG}-${VER}"/.settings
 rm -f "${PKG}-${VER}"/.classpath
