@@ -1,31 +1,17 @@
 # jdownloader-browser-debs
 Build Debian Package for JDownloader Browser
 
-**Instructions**
+**Build dependencies**
 
-Inside of the debs folder
-
-**Gets orig source code**
-
-```
-debian/rules get-orig-source
-```
-
-**Check dependencies**
-
-```
-dpkg-checkbuilddeps
-```
-
-**Build source package**
-
-```
-debuild -S -nc -uc -us
-```
+- debhelper (>= 9)
+- cdbs
+- default-jdk
+- maven-debian-helper (>= 1.5)
+- [libjd-utils-java](https://github.com/yadickson/jdownloader-utils-debs)
 
 **Tested**
 
-```
-Debian jessie
-```
+- Debian jessie
+
+[Release page](https://github.com/yadickson/jdownloader-browser-debs/releases)
 

@@ -4,8 +4,10 @@ Priority: optional
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Uploaders: Yadickson Soto <yadickson@gmail.com>
 Build-Depends: debhelper (>= 9), cdbs, default-jdk, maven-debian-helper (>= 1.5)
-Build-Depends-Indep: libjd-utils-java (>= 0.0) 
+Build-Depends-Indep: libjd-utils-java 
 Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-java/jdownloader-browser.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/jdownloader-browser.git
 Homepage: https://github.com/svn2github/jd-browser
 
 Package: libjd-browser-java
@@ -13,5 +15,5 @@ Architecture: all
 Depends: ${misc:Depends}, ${maven:Depends}
 Suggests: ${maven:OptionalDepends}
 Description: JDownloader Browser
- This packages contain the jdonwloader browser
+ Contain the jdonwloader browser.
 

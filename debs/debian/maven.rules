@@ -1,4 +1,3 @@
 
-jd jd-utils jar 0.0 * *
 jd jd-browser jar s/.*/debian/ * *
-
+jd jd-utils jar s/.*/debian/ * *
